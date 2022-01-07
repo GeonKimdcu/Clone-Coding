@@ -4,13 +4,16 @@
 
 ### 출처: 기세현님 코드 (https://dacon.io/competitions/open/235536/codeshare/2721?page=1&dtype=recent)
 <br>
+
 ### 데이터 소개
-#### Files] <br>
+
+#### Files] 
 ① movies_train.csv - 2010년대 한국에서 개봉한 한국영화 600개에 대한 감독, 이름, 상영등급, 관객수 등의 정보가 담긴 데이터<br>
 ② movies_test.csv - 관객수를 제외하고 movies_train과 동일<br>
 ③ submission.csv - 제출 파일의 형식<br>
 <br>
-#### Column_name Description] <br>
+
+#### Column_name Description]
 1. title : 영화의 제목<br>
 2. distributor : 배급사<br>
 3. genre : 장르<br>
@@ -25,9 +28,10 @@
 12. box_off_num : 관객수 <br>
 
 <br>
-### 대회 규칙 <br>
+
+### 대회 규칙
 - 평가지표: RMSE
 
-<br>
+
 ### 요약
 - GradientBoostingRegressor, NGBRegressor, LGBMRegressor, XGBRegressor, CatBoostRegressor, RandomForestRegressor 총 6가지 모델의 앙상블 기법으로 최종 결과 도출.
