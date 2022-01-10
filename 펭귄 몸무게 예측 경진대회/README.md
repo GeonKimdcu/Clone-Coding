@@ -2,15 +2,15 @@
 
 ---
 
-### 출처: DACONIO님 코드 (https://www.dacon.io/competitions/official/235862/codeshare/4031?page=1&dtype=recent)
+### 출처 
+1. DACONIO님 코드 (https://www.dacon.io/competitions/official/235862/codeshare/4031?page=1&dtype=recent)
 <br>
 
 ### 데이터 소개
 
 #### Files] 
-① movies_train.csv - 2010년대 한국에서 개봉한 한국영화 600개에 대한 감독, 이름, 상영등급, 관객수 등의 정보가 담긴 데이터<br>
-② movies_test.csv - 관객수를 제외하고 movies_train과 동일<br>
-③ submission.csv - 제출 파일의 형식<br>
+① penguins.csv - 성인 Adélie, Chinstrap 및 Gentoo 펭귄의 크기 및 성별을 포함한 데이터입니다. <br>
+Ref. https://www.kaggle.com/resulcaliskan/penguins
 <br>
 
 #### Column_name Description]
@@ -35,4 +35,4 @@ def RMSE(true, pred):
 
 
 ### 요약
-- GradientBoostingRegressor, NGBRegressor, LGBMRegressor, XGBRegressor, CatBoostRegressor, RandomForestRegressor 총 6가지 모델의 앙상블 기법으로 최종 결과 도출.
+- 방정식으로 회귀식을 유도해 간단하게 몸무게 값 예측.
