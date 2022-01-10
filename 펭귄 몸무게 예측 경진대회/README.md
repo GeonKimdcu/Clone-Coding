@@ -27,9 +27,11 @@
 ### 대회 규칙
 - 평가지표: RMSE
 - 해당 평가 산식을 써야 함.
-```def RMSE(true, pred):
+```
+def RMSE(true, pred):
     score = np.sqrt(np.mean(np.square(true-pred)))
-    return score```
+    return score
+```
 
 
 ### 요약
