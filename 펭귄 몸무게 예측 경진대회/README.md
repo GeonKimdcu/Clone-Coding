@@ -5,6 +5,7 @@
 ### 출처 
 1. DACONIO님 코드 (https://www.dacon.io/competitions/official/235862/codeshare/4031?page=1&dtype=recent)
 2. DACONIO님 코드 (https://www.dacon.io/competitions/official/235862/codeshare/4071?page=1&dtype=recent)
+3. 성지코딩님 코드 (https://www.dacon.io/competitions/official/235862/codeshare/4123?page=1&dtype=recent)
 <br>
 
 ### 데이터 소개
@@ -38,3 +39,5 @@ def RMSE(true, pred):
 ### 요약
 - 1번 코드: 방정식으로 회귀식을 유도해 간단하게 몸무게 값 예측.
 - 2번 코드: K-fold Cross Validation을 활용해 선형 회귀분석으로 몸무게 값 예측.
+- 3번 코드: 앙상블 모형으로 몸무게 값 예측. (앙상블 모형 RMSE 평가지표 구현 등 약간의 코드 추가하였음.)
+- 전체적으로 데이터를 수집하는데 있어 약간의 차이가 있었어서, 전체적으로 코드를 조금 수정해주었음.
